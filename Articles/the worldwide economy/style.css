@@ -1,0 +1,218 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@500&display=swap');
+
+
+
+
+
+* {
+    scroll-behavior: smooth;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background: #fff;   
+    position: relative;
+}
+
+body::-webkit-scrollbar {
+    background-color: #fff;
+    width: 5px;
+}
+
+body::-webkit-scrollbar-thumb {
+    background-color: #000;
+    border-radius: 5px;
+}
+
+h1::selection {
+    background-color: yellow;
+}
+
+p::selection {
+    background-color: yellow;
+}
+
+b::selection {
+    background-color: yellow;
+}
+
+b {
+    background-color: yellow;
+}
+
+nav {
+    background-color: #000;
+    margin: 0;
+    padding: 5px;
+    width: 100vw;
+    user-select: none;
+    position: fixed; 
+    text-align: center;
+    color: #fff;
+    top: 0;
+    z-index: 2222;
+}
+
+nav a {
+    text-decoration: none;
+    font-family: 'Oswald', sans-serif;
+    margin-right: 10px;
+    color: #fff;
+}
+
+nav a:hover {
+    color: #fff;
+    background: #0000ff;
+    padding: 5px;
+    margin: 0;
+}
+
+nav a:hover:nth-child(1) {
+    background: none;
+}
+
+nav img {
+    height: 25px;
+    width: 35px;
+    position: absolute;
+    left: 0;
+    margin: 0;
+    display: inline-block;
+}
+
+img {
+    user-select: none;
+}
+
+.content {
+    height: 100vh;
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto auto auto;
+    margin: 0px 20px 0px 20px;
+}
+
+.title h1 {
+    text-align: center;
+    margin: 150px 0px 0px 0px;
+    color: #000;
+    font-size: 60px;
+}
+
+.title p {
+    text-align: center;
+    font-size: 13px;
+}
+
+.front-page  img {
+    width: 880px;
+    height: 99vh;
+    margin: 5px 0px 0px 0px;
+    background-size: cover;
+    border-bottom: 2px solid black;
+    user-select: none;
+    user-select: none;
+    -moz-user-select: none;
+    -webkit-user-drag: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+}
+
+
+.contentwo {
+    display: grid;
+    grid-template-columns: auto  1fr ;
+    grid-template-rows: auto auto ;
+    margin: 20px 20px 0px 20px; 
+}
+
+.ad {
+    padding: 0;
+    margin: 0;
+    z-index: 0;
+    width: auto;
+    height: 220px;
+}
+
+.ad img {
+    width: 350px;
+    height: 220px;
+    border: 2px solid black;
+    user-select: none;
+    -moz-user-select: none;
+    -webkit-user-drag: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+}
+
+.ad a {
+    margin: 0;
+    padding: 0;
+}
+
+.ad img:hover {
+    opacity: 0.90;
+}
+
+.news {
+    grid-column: 1;
+    grid-row: 2;
+}
+
+.new {
+    margin: 20px 0px 0px 0px;
+}
+
+.new a {
+    text-decoration: none;
+    font-size: 14px;
+    color: #000;
+    vertical-align: top;
+    margin-left: 5px;
+    font-family: 'Oswald', sans-serif;
+}
+
+.new img {
+    background-size: cover;
+    display: inline-block;
+    width: 60px;
+    height: 40px;
+    margin: 0;
+    border: 2px solid black;
+    border-radius: 2px;
+    user-select: none;
+    -moz-user-select: none;
+    -webkit-user-drag: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+}
+
+.articles {
+    grid-column: 2;
+    grid-row: 1;
+    width: 80%;
+    margin: 0px 0px 0px 90px;
+}
+
+.paragraphs {
+    margin-bottom: 10px;
+}
+
+footer {
+    background: #000;
+    color: #fff;
+    text-align: center;
+    width: 100%;
+    height: 20px;
+    margin-top: 40px;
+    font-size: 12px;
+    user-select: none;
+    z-index: 2000;
+}
+
+
+
+

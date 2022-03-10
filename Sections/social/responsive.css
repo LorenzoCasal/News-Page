@@ -1,0 +1,55 @@
+@media screen and (max-device-width: 450px) and (max-device-height: 1000px) {
+    
+    .content-slider:nth-child(1), .content-slider:nth-child(4) {
+        background-image: url(../../Assets/social\ media.jpg);
+        background-size: cover;
+        background-position-x: center;
+        color: rgb(255, 255, 255);
+    }
+
+    .content-slider:nth-child(2) {
+        background-image: url(../../Assets/netflix.jpg);
+        background-size: cover;
+        background-position-x: center;
+        color: rgb(255, 255, 255);
+    }
+
+    .content-slider:nth-child(3) {
+        background-image: url(../../Assets/youtube.jpg);
+        background-size: cover;
+        background-position-x: left;
+        color: #fff;
+    }
+
+    .content-slider img {
+        opacity: 0;
+        width: 0;
+    }
+
+    .content-slider section {
+        width: 100vw;
+    }
+
+    .content-slider h1 {
+        width: 80vw;
+        font-size: 50px;
+    }
+
+    .content-slider p {
+        width: 80vw;
+    }
+
+    #btn-netflix, #btn-socialmedia {
+        border: 2px solid rgb(255, 255, 255);
+        color: rgb(255, 255, 255);
+        background: none;
+    }
+
+    b {
+        color: rgb(250, 33, 33);
+    }
+   
+    nav {
+        background: rgba(0, 0, 0, 0.8);
+    }
+}

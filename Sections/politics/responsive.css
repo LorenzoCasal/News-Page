@@ -1,0 +1,71 @@
+@media screen and (max-device-width: 450px) and (max-device-height: 1000px) {
+    
+    .content-slider:nth-child(1), .content-slider:nth-child(5) {
+        background-image: url(../../Assets/wall\ street.jpg);
+        background-size: cover;
+        background-position-x: center;
+        color: rgb(0, 0, 0);
+    }
+
+    .content-slider:nth-child(2) {
+        background-image: url(../../Assets/wind\ energy.jpg);
+        background-size: cover;
+        background-position-x: center;
+        color: rgb(255, 255, 255);
+    }
+
+    .content-slider:nth-child(3) {
+        background-image: url(../../Assets/quarantine-blur.png);
+        background-size: cover;
+        background-position-x: center;
+        color: rgb(0, 0, 0);
+    }
+
+    .content-slider:nth-child(4) {
+        background-image: url(../../Assets/china.png);
+        background-size: cover;
+        background-position-x: center;
+        color: #fff;
+    }
+
+    .content-slider img {
+        opacity: 0;
+        width: 0;
+    }
+
+    .content-slider section {
+        width: 100vw;
+    }
+
+    .content-slider h1 {
+        width: 80vw;
+        font-size: 50px;
+    }
+
+    .content-slider p {
+        width: 80vw;
+    }
+
+    #btn-economy, #btn-china {
+        background: none;
+        border: 2px solid rgb(255, 255, 255);
+        color: rgb(255, 255, 255);
+    }
+
+    #btn-wall  {
+        border: 2px solid rgb(0, 0, 0);
+        color: #000;
+    }
+
+    b {
+        color: rgb(250, 225, 0);
+    }
+
+    #titlewall, #title-worldwide {
+        color: rgb(255, 255, 255);
+    }
+   
+    nav {
+        background: rgba(0, 0, 0, 0.8);
+    }
+}
