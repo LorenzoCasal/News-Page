@@ -111,10 +111,10 @@ img {
     font-size: 12px;
 }
 
-.portada img {   
+.front-page img {   
     width: 900px;
     height: 100vh;
-    margin: 0px;
+    margin: 0;
     user-select: none;
     user-select: none;
     -moz-user-select: none;
